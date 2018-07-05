@@ -1,5 +1,5 @@
-## Lending Page на базе EasyiiCMS 
-Control panel and tools based on php framework Yii2. Easy cms for easy websites.
+## Lending Page на базе EasyiiCMS с переписанными модулями
+Создано для ознакомления.
 
 #### Краткий обзор
 Ниже представлены файлы которые переписывал от основной CMS.
@@ -19,7 +19,7 @@ vendor\noumo\easyii\modules\article      модуль статей
 
 ```
 
-#### You can find full information in links bellow ####
+#### Домашняя страница easyiicms ####
 * [Homepage](http://easyiicms.com)
 
 #### Contacts ####
