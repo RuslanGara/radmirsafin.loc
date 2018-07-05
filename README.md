@@ -1,29 +1,27 @@
-## EasyiiCMS
+## Lending Page на базе EasyiiCMS 
 Control panel and tools based on php framework Yii2. Easy cms for easy websites.
 
-#### Requirements
-The main requirement is PHP >= 5.4, Imagick extension. Other requirements you can see after download.
+#### Краткий обзор
+Ниже представлены файлы которые переписывал от основной CMS.
+Верстка осуществлялась по PSD макету.
 
-Direcotry Structure
+Написанные  контроллеры,модули и представления 
 ```
-app/                main application folder
-    assets/         contains assets definition
-    config/         contains application configurations
-    commands/       contains Console controller classes
-    controllers/    contains Web controller classes
-    media/          contains css, images and js scripts
-    views/          contains application configurations
-assets/             contains published files
-runtime/            contains files generated during runtime
-uploads/            contains all uploaded files
-vendor/             contains dependent 3rd-party packages
+app\views\site                           главная страница
+app\controllers\ReviewsController.php    контроллер отзывов   
+app\views\reviews                        представление отзывов
+vendor\noumo\easyii\modules\news         модуль отзывов
+
+app\controllers\ArticlesController.php   контроллер статей   
+app\views\articles                       представление статей 
+vendor\noumo\easyii\modules\article      модуль статей 
+
+
 ```
 
 #### You can find full information in links bellow ####
 * [Homepage](http://easyiicms.com)
-* [Installation](http://easyiicms.com/docs/install)
-* [Demo](http://demo.easyiicms.com/)
 
 #### Contacts ####
 
-Feel free to email me on noumohope@gmail.com
+Ruslan.garaev.rb@mail.ru
