@@ -1,0 +1,1363 @@
+@font-face {
+    font-family: 'Geometriabold';
+    src: url('../fonts/Geometriabold.otf');
+
+
+
+}
+@font-face {
+    font-family: 'Geometriavtdia';
+    src: url('../fonts/Geometriavtdia.otf');
+}
+
+@font-face {
+    font-family: 'Geometrialight';
+    src: url('../fonts/Geometrialight.otf');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.ttf');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.ttf');
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+a.idTop {
+    position: fixed; /*позиционирование кнопки фиксированное*/
+    z-index: 9999; /*отображаем поверх всех элементов*/
+    bottom: 0%; /*положение снизу*/
+    right: 0%; /*положение справа*/
+    background: #7db9e8; /*фон, можно указать любую картинку*/
+    opacity: .6; /*прозрачность*/
+    color: #fff; /*цвет текста*/
+    padding: 10px; /*внутренние отступы*/
+    margin: 5px 15px 45px 5px; /*внешние отступы*/
+}
+#navbar-menu > ul > li{
+   cursor: pointer;
+}
+
+.otstup_footer > ul > li:nth-child(3){
+    cursor: pointer;
+}
+a.idTop:hover {
+    opacity: 1;
+}
+
+html {
+    overflow-y: scroll;
+
+color:#334A4D;
+
+}
+body {
+    font-family: Geometriabold;
+    line-height: 1.2;
+    padding-top: 0px!important;
+}
+
+button:focus {
+    outline: none!important;
+}
+
+.btn-primaryblue {
+    color: #fff;
+    background-color: #85BBE1;
+    border-color: #2e6da4;
+}
+
+.btn-primaryblue:hover {
+    color: #fff;
+    background-color: #8597E1;
+    border-color: #2e6da4;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+html, body{
+    height: 100%;
+}
+.lineherat1 {
+    border-bottom: 4px solid #000000;
+    padding-top: 5px;
+}
+
+
+
+/*Кнопки начало */
+.btn-default1 {
+    color: #334A4D;
+   background-color: transparent;
+
+    border: 5px solid #334A4D;
+    width: 700px;
+    font-weight:bolder;
+}
+.btn-lg1 {
+
+    padding: 10px 16px;
+    font-size: 19pt;
+    line-height: 1.3333333;
+    border-radius: 6px;
+
+
+}
+.btn1 {
+
+    display: inline-block;
+    padding: 18px 12px;
+    margin-bottom: 0;
+    font-size: 19pt;
+
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+
+    border-radius: 4px;
+}
+
+
+
+.btn-default2 {
+    color: #FFFFFF;
+    background-color: #0D1B27;
+
+    border:1px solid #334A4D ;
+    width: 500px;
+    font-weight:bolder;
+}
+.btn-lg2 {
+
+    padding: 10px 3px;
+    font-size: 19pt;
+    line-height: 1.3333333;
+    border-radius: 6px;
+
+
+}
+.btn2 {
+
+    display: inline-block;
+    padding: 18px 3px;
+    margin-bottom: 0;
+    font-size: 19pt;
+
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    background-color: #0D1B27;
+    border-radius: 4px;
+}
+/*Кнопки конец*/
+/*___________Изменения в шрифтах и отступах открытие______________*/
+
+.container-fluid {
+    padding: 0px;
+}
+.fonts1{
+
+
+    color: #334A4D;
+    background-color: #FBF5F2;
+
+}
+.fonts2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBF5F2;
+}
+.fonts23{
+    width: 100vw;
+    background-color: #FBF5F2;
+}
+.fonts222{
+
+
+
+    background-color: #FBF5F2;
+
+}
+
+
+.fonts22{
+
+    width: 100vw;
+    height: 70vh;
+
+    background-color: #FBF5F2;
+
+}
+.fonts3{
+    background: url(../../../uploads/lagoutsnew/foto_avtor_blor_4.png);
+    height:100%;
+    background-repeat: no-repeat;
+
+    background-position: right 0px;
+    border-style: none;
+    background-color: #5D7C82;
+    background-size: contain;
+
+    background-attachment: fixed;
+
+}
+.fonts4{
+
+
+
+    background-color: #334A4D;
+
+}
+
+
+.korob1{
+    width: 495px;
+
+}
+.text1{
+    font-size: 43pt;
+    font-weight:bolder;
+}
+.text11{
+    font-size: 40pt;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.text111{
+    font-size: 40pt;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.text144{
+    font-size: 35pt;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.text2{
+    font-size: 25pt;
+
+}
+.text3{
+    padding-top: 30px;
+    font-size: 17pt;
+    font-weight:bolder;
+}
+
+.text33{
+    color: #FFFFFF;
+    font-size: 17pt;
+    font-weight:bolder;
+}
+.text4{
+
+    font-size: 16pt;
+font-weight: bolder;
+}
+
+.text444{
+
+    font-size: 22pt;
+    font-weight: bolder;
+}
+
+.textzagolovok1{
+font-size: 23px;
+}
+
+.text44{
+
+    font-size: 18pt;
+    font-weight: bolder;
+    color:#FFFFFF ;
+}
+.text5{
+
+     font-size: 48pt;
+     font-weight:bolder;
+ }
+.text55{
+
+    font-size: 40pt;
+    font-weight:bolder;
+}
+
+.text6{
+    padding-top: -20px;
+    font-size: 15pt;
+    color: #FFFFFF;
+}
+.text66{
+
+    font-size: 15pt;
+    color: #69787C;
+}
+.text7{
+    font-size: 20pt;
+    font-family: "OpenSansRegular";
+    color: #272624;
+}
+
+.text77{
+    font-size: 20pt;
+    font-family: "OpenSansRegular";
+    color: #2D2B29;
+    line-height: 1.0em;
+}
+
+.text777{
+    font-size: 20pt;
+    font-family: "OpenSansRegular";
+    color: #DEE4E4;
+
+}
+.text7bold{
+    font-size: 20pt;
+    font-family: "OpenSansBold";
+    color: #272624;
+}
+
+.text8{
+
+    font-size: 34pt;
+    font-weight: bolder;
+
+}
+.text88{
+
+    font-size: 26pt;
+    font-weight: bolder;
+color:#334A4D;
+}
+
+.text9{
+    font-size: 20pt;
+    font-family: "OpenSansRegular";
+
+    color: #DEE4E4;
+
+
+
+}
+.text9999{
+    font-size: 15pt;
+    color: #272624;
+}
+
+.text999{
+    font-size: 15pt;
+    color: #69787C;
+}
+.text888{
+    font-size: 12pt;
+    color: #FFFFFF!important;
+    font-weight:bolder;
+    white-space: nowrap;
+}
+
+.text8888{
+    font-size: 12pt;
+    color: #FFFFFF!important;
+    font-weight:bolder;
+    white-space: nowrap;
+}
+.text99{
+    font-size: 15pt;
+    color: #676761;
+}
+
+.text10{
+    font-family: OpenSansBold;
+    font-size: 14pt;
+    color: #6B6967;
+    line-height: 0.9em;
+}
+.textmodal{
+    font-family: OpenSansBold;
+    font-size: 16pt !important;
+    color: #000000;
+
+}
+.margin0{
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    padding-bottom: 20px;
+    position: relative;
+    top: 0px;
+    right: 10px;
+
+}
+
+.imgg{
+float: right;
+    width: 290px;
+}
+.otstup1{
+    padding-top: 15px;
+}
+a:hover, a:focus {
+    color: #000000;
+    text-decoration: underline;
+}
+.otstup2{
+    padding-top: 55px;
+}
+.otstup3{
+    padding-top: 35px;
+}
+.otstup5{
+    padding-top: 70px;
+}
+.otstup4{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.otstup85{
+    padding-top: 85px;
+}
+.otstup65botoom{
+    padding-bottom: 10px;
+    border-bottom: solid 4px black;
+}
+.otstup6{
+    padding-top: 25px;
+
+}
+.otstup7{
+    padding-top:10%;
+
+}
+.otstup8{
+    padding-top:5%;
+
+}
+.otstup9{
+    position:relative;
+    padding-bottom: 0px;
+
+}
+.otstup_footer{
+
+    padding-top: 45px;
+
+}
+.otstup_footer1{
+
+    padding-bottom: 45px;
+
+}
+.otstup_footer1{
+
+    padding-bottom: 45px;
+
+}
+.otstup_left{
+
+    padding-left: 40px;
+
+}
+.otstup_left1{
+
+    padding-left: 90px;
+
+}
+
+.textlogo{
+    font-size:27pt;
+}
+.textlogomini{
+    padding-top: 5px;
+    font-size:12pt;
+}
+
+
+/*___________Изменения в шрифтах отступах закрытие*/
+
+
+
+/*___________форма ответи */
+.formotvet{
+    background: url(../../../uploads/lagoutsnew/fon_zayvka.jpg) center/cover;
+    position:relative;
+    width: 100%;
+    height: 40vh;
+}
+/*___________форма ответи закрытик */
+
+
+/*___________Изменения в меню открытие______________*/
+
+
+.navbar-inverse {
+    background-color: #334A4D;
+    border-color: #FFFFFF;
+}
+.nav-tabs {
+    border-bottom-style: hidden!important;
+}
+.navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    height: 80px;
+
+}
+
+.navbar {
+    position: relative;
+    min-height: 70px;
+    border: 1px solid transparent;
+
+
+    margin-bottom: 0px;
+
+}
+
+
+
+
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+
+    color: #FFFFFF;
+    background-color: #334A4D;
+    height: 58px;
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0px 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #9d9d9d;
+}
+.navbar-nav{
+    padding-top: 22px
+
+ }
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+.dropdown> .dropdown-menu {
+    min-width:210px;
+    padding:15px;
+}
+.nav-pills{
+
+}
+/*___________Изменения в меню закрытие______________*/
+
+.black1 {
+    background: url(../../../uploads/lagoutsnew/blok1.jpg) center/cover;
+    position:relative;
+    width: 100%;
+    height: 70vh;
+}
+.black2 {
+    background: url(../../../uploads/lagoutsnew/fon_blok_2.jpg) center/cover;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.black4 {
+    background: url(../../../uploads/lagoutsnew/text_fon_blok_2.png) center/cover;
+    position:relative;
+    width: 977px;
+    height: 310px;
+    z-index: 2;
+
+}
+
+.black5 {
+    background: url(../../../uploads/lagoutsnew/fon_blok_5.jpg) center/cover ;
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #5D7C82;
+
+}
+
+.black6 {
+    background: url(../../../uploads/lagoutsnew/fon_blok_6.jpg) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.black7{
+    background: url(../../../uploads/lagoutsnew/blok_7.jpg) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.black8{
+    background: url(../../../uploads/lagoutsnew/fon_blok_8.jpg) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.black9{
+    background: url(../../../uploads/lagoutsnew/fon_blok_8.jpg) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.black10{
+    background: url(../../../uploads/lagoutsnew/fon_blok_10.jpg) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.black11{
+    background: url(../../../uploads/lagoutsnew/fon_blok_11.png) center/cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fa1{
+    border: solid black 3px;
+    border-radius:5px 5px 5px 5px;
+    width: 35px;
+    text-align: center;
+}
+
+.fa2{
+   padding-top: 90px;
+    color: #000000 !important;
+}
+
+.fa3{
+
+    color: #FFFFFF !important;
+   border: solid #FFFFFF 3px;
+border-radius: 5px 5px 5px 5px;
+width: 35px;
+text-align: center;
+}
+
+
+/*карусель начало*/
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -150px;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.carousel-caption {
+    font-size: 15pt;
+    position: absolute;
+    right: 10%;
+    top:0px;
+
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+    text-align: justify;
+    text-shadow:none!important;
+}
+
+.item{
+    height:300px;
+
+}
+.botton5{
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+}
+.btn-link:focus {
+    color: #23527c;
+    text-decoration: #99A3AC;
+    background-color: transparent;
+}
+.title1{
+    text-align: center;
+    position: relative;
+    bottom: -65px;
+    font-style: italic;
+height:90px;
+    font-size: 25px;
+z-index:99999999999;
+}
+.title2{
+    font-family: OpenSansRegular!important;
+    font-style:italic;
+    font-weight: normal!important;
+
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow:visible;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+    top:250px;
+    position: absolute;
+
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-control.left {
+    background-image: none !important;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    right: -60px;
+    left: auto;
+    background-image:none !important;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+/*карусель конец */
+
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .otstup7 {
+        padding-top: 20%;
+    }
+    .title2 {
+        font-family: OpenSansRegular!important;
+        font-style: italic;
+        font-weight: normal!important;
+        padding-top: 10px!important;
+    }
+    .textlogo {
+        font-size: 11pt;
+    }
+    .navbar-nav {
+        padding-top: 50px;
+    }
+    body {
+
+        font-size: 8px;
+
+
+
+        line-height:25px;
+
+
+    }
+
+    .textlogomini {
+        font-size: 7pt;
+    }
+    .carousel-caption {
+        font-size: 10pt;
+        position: absolute;
+        right: 10%;
+        top:0px;
+left:35%;
+        z-index: 10;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: #000000;
+        text-align: justify;
+        text-shadow:none!important;
+    }
+    .otstup4{
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+    .text1{
+        font-size: 17pt;
+        font-weight:bolder;
+    }
+    .text11{
+        font-size: 11pt;
+
+        color: #FFFFFF;
+    }
+    .text144 {
+        font-size: 15pt;
+        white-space: nowrap;
+        color: #FFFFFF;
+        text-align: right!important;
+    }
+    .textlogo {
+         font-size: 15pt;
+     }
+
+    .text4 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text444 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text4445 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text55 {
+        font-size: 12pt;
+        font-weight: bolder;
+    }
+    .text7 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+    }
+    .text777 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+        color: #DEE4E4;
+    }
+    .margin0 {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding-bottom: 0px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+    .box-shadow {
+        text-align: center;
+    }
+    .text5{
+
+        font-size: 17pt;
+        font-weight:bolder;
+    }
+    .text66 {
+        font-size: 6pt;
+        color: #69787C;
+    }
+    .textzagolovok1{
+        font-size: 12px;
+    }
+    .text88 {
+        font-size: 17pt;
+        font-weight: bolder;
+        color: #334A4D;
+    }
+    .text888{
+        text-align: center!important;
+    }
+    .text9 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+        color: #DEE4E4;
+    }
+    .otstup5 {
+        padding-top: 45px;
+    }
+    .text8888{
+        font-size: 10pt;
+        color: #FFFFFF!important;
+        font-weight:bolder;
+        white-space: nowrap;
+        text-align: right;
+    }
+    .title1 {
+        text-align: center;
+        position: relative;
+        bottom: -65px;
+        font-style: italic;
+        height: 90px;
+        font-size: 13px;
+        z-index: 99999999999;
+    }
+    .item{
+        padding-left: 70px;
+    }
+    .otstup_left {
+        padding-left: 0px;
+    }
+    .navbar-nav{
+        padding-top: 0px
+
+    }
+    .btn1 {
+        display: inline-block;
+        padding: 18px 0px;
+        margin-bottom: 0;
+        font-size: 8pt;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border-radius: 4px;
+    }
+    .btn-default1 {
+        color: #334A4D;
+        background-color: transparent;
+
+        border: 5px solid #334A4D;
+        width: 230px;
+        font-weight: bolder;
+    }
+    .btn-default2 {
+        color: #FFFFFF;
+        background-color: #0D1B27;
+
+        border: 1px solid #334A4D;
+        width: 230px;
+        font-weight: bolder;
+    }
+    .btn2 {
+        display: inline-block;
+        padding: 18px 0px;
+        margin-bottom: 0;
+        font-size: 8pt;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        background-color: #0D1B27;
+        border-radius: 4px;
+    }
+    .korob1 {
+        width: 232px;
+    }
+    .a > img{
+        text-align:center;
+    }
+    .title2 {
+        font-family: OpenSansRegular!important;
+        font-style: italic;
+        font-weight: normal!important;
+        padding-top: 170px;
+    }
+    .black4 {
+        background: url(../../../uploads/lagoutsnew/text_fon_blok_2.png) center/cover;
+        position:relative;
+        background-size:300px;
+        z-index: 2;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .fonts1{
+        height: 150px;
+    }
+    .margin0 {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding-bottom: 0px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+    .textlogo {
+        font-size: 14pt;
+    }
+
+    .textlogomini {
+        font-size: 9pt;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .carousel-caption {
+        font-size: 10pt;
+        position: absolute;
+        right: 10%;
+        top:0px;
+
+        z-index: 10;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: #000000;
+        text-align: justify;
+        text-shadow:none!important;
+    }
+    .otstup4{
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+    .text1{
+        font-size: 17pt;
+        font-weight:bolder;
+    }
+    .text11{
+        font-size: 11pt;
+
+        color: #FFFFFF;
+    }
+    .text144 {
+        font-size: 15pt;
+        white-space: nowrap;
+        color: #FFFFFF;
+        text-align: right!important;
+    }
+    .textlogo {
+        font-size: 15pt;
+    }
+    .textzagolovok1{
+        font-size: 12px;
+    }
+    .text4 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text444 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text4445 {
+        font-size: 10pt;
+        font-weight: bolder;
+    }
+    .text55 {
+        font-size: 12pt;
+        font-weight: bolder;
+    }
+    .text7 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+    }
+    .text777 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+        color: #DEE4E4;
+    }
+    .margin0 {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding-bottom: 0px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+
+    .box-shadow {
+text-align: center;
+    }
+    .text5{
+
+        font-size: 17pt;
+        font-weight:bolder;
+    }
+    .text66 {
+        font-size: 10pt;
+        color: #69787C;
+    }
+    .text88 {
+        font-size: 17pt;
+        font-weight: bolder;
+        color: #334A4D;
+    }
+    .text888{
+        text-align: center!important;
+    }
+    .text9 {
+        font-size: 12pt;
+        font-family: "OpenSansRegular";
+        color: #DEE4E4;
+    }
+    .otstup5 {
+        padding-top: 45px;
+    }
+    .text8888{
+        font-size: 10pt;
+        color: #FFFFFF!important;
+        font-weight:bolder;
+        white-space: nowrap;
+        text-align: right;
+    }
+    .title1 {
+        text-align: center;
+        position: relative;
+        bottom: -65px;
+        font-style: italic;
+        height: 90px;
+        font-size: 13px;
+        z-index: 99999999999;
+    }
+    .item{
+        padding-left: 70px;
+    }
+    .otstup_left {
+        padding-left: 0px;
+    }
+    .navbar-nav{
+        padding-top: 0px
+
+    }
+    .btn1 {
+        display: inline-block;
+        padding: 18px 0px;
+        margin-bottom: 0;
+        font-size: 8pt;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border-radius: 4px;
+    }
+    .btn-default1 {
+        color: #334A4D;
+        background-color: transparent;
+
+        border: 5px solid #334A4D;
+        width: 230px;
+        font-weight: bolder;
+    }
+    .btn-default2 {
+        color: #FFFFFF;
+        background-color: #0D1B27;
+
+        border: 1px solid #334A4D;
+        width: 230px;
+        font-weight: bolder;
+    }
+    .btn2 {
+        display: inline-block;
+        padding: 18px 0px;
+        margin-bottom: 0;
+        font-size: 8pt;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        background-color: #0D1B27;
+        border-radius: 4px;
+    }
+    .korob1 {
+        width: 232px;
+    }
+    .a > img{
+        text-align:center;
+    }
+    .title2 {
+        font-family: OpenSansRegular!important;
+        font-style: italic;
+        font-weight: normal!important;
+        padding-top: 170px;
+    }
+    .black4 {
+        background: url(../../../uploads/lagoutsnew/text_fon_blok_2.png) center/cover;
+        position:relative;
+        background-size:300px;
+        z-index: 2;
+    }
+
+    .navbar-nav {
+        padding-top: 25px!important;
+    }
+}
+
+
+
+.lib-panel {
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+}
+.lib-panel img {
+
+    background-color: transparent;
+}
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+
+}
+.lib-panel .lib-row {
+
+}
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    display: block;
+    font-size: 16pt;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+
+
+.jivo-btn {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: none;
+    cursor: pointer;
+    background-image: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.jivo-btn:hover {
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.2), inset 0 0 20px 10px rgba(255,255,255,0.3);
+}
+.jivo-btn.jivo-btn-light:hover{
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.3), inset 0 0 20px 10px rgba(255,255,255,0.1);
+}
+.jivo-btn.jivo-btn-light{
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);
+}
+.jivo-btn:active,
+.jivo-btn.jivo-btn-light:active{
+    box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.4), inset 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.jivo-btn:active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+.jivo-btn-gradient {
+    background-image: url(//static.jivosite.com/button/white_grad_light.png);
+    background-repeat: repeat-x;
+}
+.jivo-btn-light.jivo-btn-gradient {
+    background-image: url(//static.jivosite.com/button/white_grad.png);
+}
+.jivo-btn-icon {
+    width:17px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+.jivo-btn-light {
+    color: #fff;
+}
+.jivo-btn-dark {
+    color: #222;
+}

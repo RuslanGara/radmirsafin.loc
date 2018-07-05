@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /~*
+HOST: radmirsafin.ru
+sitemap: http://radmirsafin.ru/sitemap.xml
